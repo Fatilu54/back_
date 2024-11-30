@@ -11,7 +11,7 @@ export class ClienteService {
       data: {
         nombre: createClienteDto.nombre,
         telefono: createClienteDto.telefono,
-        mesa: createClienteDto.mesa,
+        mesa: createClienteDto.apellido,
         modoPago: createClienteDto.modoPago,
       },
     });
